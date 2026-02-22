@@ -10,9 +10,7 @@ import Skills from "./pages/Skills";
 import Analytics from "./pages/Analytics";
 import Innovation from "./pages/Innovation";
 import NotFound from "./pages/NotFound";
-
 const queryClient = new QueryClient();
-
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -32,5 +30,4 @@ const App = () => (
     </TooltipProvider>
   </QueryClientProvider>
 );
-
 export default App;
